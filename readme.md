@@ -42,10 +42,11 @@ docker compose up -d --build app
 
 
 ## Структура
-src/app.ts — Точка входа, миграции и планировщик.
-src/services/wb.service.ts — Работа с API Wildberries.
-src/services/google.service.ts — Интеграция с Google Sheets.
-src/services/db.service.ts — Транзакционная логика работы с БД.
+---
+- **src/app.ts** — Точка входа, миграции и планировщик.
+- **src/services/wb.service.ts** — Работа с API Wildberries.
+- **src/services/google.service.ts** — Интеграция с Google Sheets.
+- **src/services/db.service.ts** — Транзакционная логика работы с БД.
 
 
 
