@@ -13,26 +13,32 @@
 
 ## Быстрый запуск
 ```bash
-docker compose up
+docker compose up 
+```
 
 ## Команды шаблона
 Запуск базы данных:
 ```bash
 docker compose up -d --build postgres
+```
 
 ## Миграции и сиды (локально):
 ```bash
 npm run knex:dev migrate:latest
+```
 ```bash
 npm run knex:dev seed:run
+```
 
 ## Режим разработки:
 ```bash
 npm run dev
+```
 
 ## Проверка приложения в Docker:
 ```bash
 docker compose up -d --build app
+```
 
 
 ## Структура
