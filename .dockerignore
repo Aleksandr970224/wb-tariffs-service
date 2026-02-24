@@ -1,0 +1,13 @@
+.dockerignore
+node_modules
+.vscode
+.sql
+.idea
+dist
+
+config/*.json
+!config/*.example.json
+
+.env
+.env.*
+*.log
